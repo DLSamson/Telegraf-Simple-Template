@@ -1,0 +1,13 @@
+{
+    "verbose": false,
+    "ignore": [
+        ".git/",
+        ".idea/",
+        ".vscode/",
+        "dist/",
+        "node_modules/"
+    ],
+    "restartable": "r",
+    "ext": "ts, json",
+    "exec": "ts-node ./app/app.ts"
+}
