@@ -6,16 +6,15 @@
   "scripts": {
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\"",
     "build": "npx tsc",
-    "start": "node dist/app.js",
-    "launch": "concurrently \"npm run build\" \"npm run start\""
+    "start": "node dist/app.js"
   },
   "devDependencies": {
     "@types/config": "^3.3.0",
+    "@grammyjs/types": "^2.9.1",
     "@types/node": "^18.6.3",
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19",
     "ts-node": "^10.9.1",
-    "typegram": "^3.11.0",
     "typescript": "^4.7.4"
   }
 }
